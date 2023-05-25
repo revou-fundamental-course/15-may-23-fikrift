@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title-ni">Katik <span>Kalkulator Matematik</span></h1>
+        <p>
+            <br>Welcome to Katik! <br><br>
+            <span>Hai Guys!, Selamat datang di katik <br>
+            Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling persegi
+            </span>
+        </p>
+    </header>
+    <main>
+        <div class="luas-subtitle">
+            <h3>Luas Persegi</h3>
+        </div>
+        <div class="card">
+            <div class="figure">
+                <div class="example-square"></div>
+            </div>
+            <div class="formula-description">
+                <p>Rumus Luas Persegi yaitu:</p>
+                <br>
+                <p class="rumus-luas-persegi">L = S x S</p>
+                <br>
+                <p>Di mana:</p>
+                <p>L = Luas</p>
+                <p>S = Sisi</p>
+            </div>
+            <div>
+                <h3 class="tulisan-hitung">Hitung Luas Persegi</h3>
+                <input id="sisi-luas" name="sisi-luas" placeholder="Nilai Sisi">
+
+                <p class="result-luas" id="rumus-luas">L = S x S</p>
+                <p class="result-luas"> L = <span id="perhitungan-luas"></span> x <span id="perhitungan-luas-2"></span></p>
+                <p class="result-luas"><strong>Luas = <span id="output-luas"></span></strong></p>
+
+                <div class="figure-luas">
+                    <button class="hitung-luas" type="submit" name="hitung-luas" onclick="hitungLuas()">Hitung</button>
+                </div>
+
+                <div class="figure-reset">
+                    <button class="reset-luas" name="reset-luas" onclick="resetLuas()">Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="keliling-subtitle">
+            <h3>Keliling</h3>
+        </div>
+        <div class="card">
+            <div class="figure">
+                <div class="example-square"></div>
+            </div>
+            <div class="formula-description">
+                <p>Rumus Keliling Persegi yaitu:</p>
+                <br>
+                <p class="rumus-keliling-persegi">K = S x 4</p>
+                <br>
+                <p>Di mana:</p>
+                <p>K = Keliling</p>
+                <p>S = Sisi</p>
+            </div>
+            <div>
+                <h3 class="tulisan-hitung">Hitung Keliling Persegi</h3>
+                <input id="sisi-keliling" name="sisi-keliling" placeholder="Nilai Sisi">
+
+                <p class="result-keliling" id="rumus-keliling">K = S x 4</p>
+                <p class="result-keliling"> K = <span id="perhitungan-keliling"></span> x <span id="perhitungan-keliling-4">4</span></p>
+                <p class="result-keliling"><strong> Keliling = <span id="output-keliling"></span> </strong> </p>
+
+                <div class="figure-keliling">
+                    <button class="hitung-keliling" type="submit" name="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
+                </div>
+
+                <div class="figure-reset">
+                    <button class="reset-keliling" name="reset-keliling" onclick="resetKeliling()">Reset</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </main>
+    <footer class="footer"> Terimakasih RevoU! |<a href="https://revou.co/" target="_blank"> RevoU</a> Mini Project - 15 May 2023</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

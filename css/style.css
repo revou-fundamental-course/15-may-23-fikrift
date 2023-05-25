@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #e7e6e6;
+}
+
+.title-ni {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: #3ea7e0;   
+    color: #fff;
+    margin: 0px 0px;
+    padding: 21px 5px;
+    text-align: center;
+}
+.title-ni span {
+    font-size: 1rem;
+    color: #e3dddd;
+  }
+
+header p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  header p span {
+    font-size: 0.9rem;
+    margin: 20px;
+    font-weight: 400;
+    line-height: 1px;
+    text-align: center;
+  }
+  
+h3{
+    text-align: center;
+}
+.tulisan-hitung{
+    font-size: 1.5rem;
+}
+p{
+    margin: 0px;
+}
+input{
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.luas-subtitle{
+    color: white;
+    background: #2c8fcc;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card{
+    border: 2px solid #2c8fcc;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+.rumus-luas-persegi{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.figure{
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example-square{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+.result-luas{
+    display: none;
+}
+.hitung-luas{
+    min-width: 70px;
+    min-height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgb(24, 116, 177);
+    font-size: larger;
+    padding: 10px 15px;
+}
+.hitung-luas:hover{
+    background: rgb(73, 180, 252);
+}
+.figure-luas{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.figure-reset{
+    display: flex;
+    justify-content: flex-end;
+}
+.reset-luas{
+    min-width: 60px;
+    min-height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgb(207, 173, 20);
+}
+.reset-luas:hover{
+    background: rgb(255, 226, 99);
+}
+
+.keliling-subtitle{
+    color: white;
+    background: rgb(44, 143, 204);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card{
+    border: 2px solid rgb(44, 143, 204);
+    background: white;
+    padding: 10px 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+.rumus-keliling-persegi{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.figure{
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example-square{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+.result-keliling{
+    display: none;
+}
+.hitung-keliling{
+    min-width: 70px;
+    min-height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgb(24, 116, 177);
+    font-size: larger;
+    padding: 10px 15px;
+}
+.hitung-keliling:hover{
+    background: rgb(73, 180, 252);
+}
+.figure-keliling{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.figure-reset{
+    display: flex;
+    justify-content: flex-end;
+}
+.reset-keliling{
+    min-width: 60px;
+    min-height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgb(207, 173, 20);
+}
+.reset-keliling:hover{
+    background: rgb(255, 226, 99);
+}
+.footer{
+    font-size: 0.9rem;
+    display: flexbox;
+    margin: 20px 20px;
+    padding: 20px;
+    font-weight: 400;
+    text-align: center;
+}
